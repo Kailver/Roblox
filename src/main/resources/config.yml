@@ -1,0 +1,83 @@
+currency-symbol: "$"
+starting-balance: 0.0
+starting-tokens: 0
+starting-rank: A
+starting-auto-sell: true
+max-prestige: 10
+rank-costs:
+  A: 0
+  B: 2500
+  C: 5000
+  D: 9000
+  E: 14000
+  F: 20000
+  G: 27000
+  H: 35000
+  I: 44000
+  J: 54000
+  K: 65000
+  L: 77000
+  M: 90000
+  N: 104000
+  O: 119000
+  P: 135000
+  Q: 152000
+  R: 170000
+  S: 189000
+  T: 209000
+  U: 230000
+  V: 252000
+  W: 275000
+  X: 299000
+  Y: 324000
+  Z: 350000
+prestige-costs:
+  1: 750000
+  2: 1000000
+  3: 1300000
+  4: 1650000
+  5: 2050000
+  6: 2500000
+  7: 3000000
+  8: 3550000
+  9: 4150000
+  10: 4800000
+block-values:
+  STONE: 3.0
+  COBBLESTONE: 2.0
+  COAL_ORE: 8.0
+  IRON_ORE: 12.0
+  GOLD_ORE: 16.0
+  REDSTONE_ORE: 18.0
+  LAPIS_ORE: 20.0
+  DIAMOND_ORE: 30.0
+  EMERALD_ORE: 40.0
+  DEEPSLATE_DIAMOND_ORE: 36.0
+  DEEPSLATE_EMERALD_ORE: 48.0
+token-values:
+  STONE: 1
+  COAL_ORE: 2
+  IRON_ORE: 3
+  GOLD_ORE: 4
+  DIAMOND_ORE: 7
+  EMERALD_ORE: 10
+enchants:
+  fortune:
+    max-level: 250
+    token-cost-per-level: 10
+  greed:
+    max-level: 100
+    token-cost-per-level: 20
+  jackhammer:
+    max-level: 50
+    token-cost-per-level: 35
+  laser:
+    max-level: 30
+    token-cost-per-level: 50
+  explosion:
+    max-level: 40
+    token-cost-per-level: 45
+  token_finder:
+    max-level: 100
+    token-cost-per-level: 15
+mine-reset-check-interval-seconds: 15

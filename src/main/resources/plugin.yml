@@ -1,0 +1,35 @@
+name: PrisonCore
+main: com.roblox.prisoncore.PrisonCorePlugin
+version: 1.0.0
+api-version: '1.20'
+authors: [OpenAI]
+softdepend: [FastAsyncWorldEdit, WorldEdit]
+commands:
+  prison:
+    description: Main prison overview command.
+  rankup:
+    description: Rank up through the prison ladder.
+  prestige:
+    description: Prestige after reaching Z rank.
+  balance:
+    aliases: [bal]
+    description: View your balance.
+  pay:
+    description: Pay another player.
+  tokens:
+    description: View your token balance.
+  mine:
+    description: Mine administration.
+  pickaxe:
+    description: Manage your prison pickaxe.
+  enchant:
+    description: Open or use the prison enchant system.
+  sellall:
+    description: Sell your sellable inventory contents.
+  backpack:
+    description: View or sell your virtual backpack.
+  autosell:
+    description: Toggle auto sell for mining rewards.
+permissions:
+  prisoncore.admin:
+    default: op

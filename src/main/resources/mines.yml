@@ -1,0 +1,36 @@
+mines:
+  starter:
+    world: world
+    pos1:
+      x: 0
+      y: 64
+      z: 0
+    pos2:
+      x: 20
+      y: 74
+      z: 20
+    reset-threshold: 35
+    composition:
+      STONE: 70
+      COAL_ORE: 15
+      IRON_ORE: 10
+      GOLD_ORE: 5
+    allowed-ranks: [A, B, C, D, E]
+  advanced:
+    world: world
+    pos1:
+      x: 25
+      y: 64
+      z: 0
+    pos2:
+      x: 50
+      y: 74
+      z: 25
+    reset-threshold: 35
+    composition:
+      STONE: 40
+      IRON_ORE: 20
+      GOLD_ORE: 15
+      DIAMOND_ORE: 15
+      EMERALD_ORE: 10
+    allowed-ranks: [F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z]
